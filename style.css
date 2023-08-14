@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
 }
 .Slider {
-  width: 100vw;
+  width: 98vw;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -108,14 +108,10 @@ nav ul {
   gap: 30px;
 }
 
-nav ul li {
-  transition: 0.2s ease-in;
-}
-
 nav ul li:hover {
-  border: 2px solid rgba(255, 255, 255, 0.619);
   transition: 0.2s ease-in;
-  padding: 5px;
+  box-shadow: 3px 3px 3px rgb(124, 124, 254), 3px 3px 3px rgb(148, 210, 240),
+    3px 3px 3px rgb(209, 240, 240);
 }
 .container2 {
   display: grid;
