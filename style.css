@@ -21,7 +21,7 @@
 .imgSlider {
   width: 60%;
   height: 600px;
-  background-image: url("SALE1.png");
+  background-image: url("https://res.cloudinary.com/dxps8tmka/image/upload/v1692037743/SALE1_dmb7eg.png");
   background-size: 100% 100%;
   animation: changeImage 30s 1s ease-in infinite;
   border-radius: 20px;
@@ -29,23 +29,23 @@
 
 @keyframes changeImage {
   0% {
-    background-image: url("SALE1.png");
+    background-image: url("https://res.cloudinary.com/dxps8tmka/image/upload/v1692037743/SALE1_dmb7eg.png");
   }
 
   25% {
-    background-image: url("SALE2.png");
+    background-image: url("https://res.cloudinary.com/dxps8tmka/image/upload/v1692037737/SALE2_yjlgft.png");
   }
 
   50% {
-    background-image: url("SALE3.png");
+    background-image: url("https://res.cloudinary.com/dxps8tmka/image/upload/v1692037738/SALE3_trop5m.png");
   }
 
   75% {
-    background-image: url("SALE4.png");
+    background-image: url("https://res.cloudinary.com/dxps8tmka/image/upload/v1692037737/SALE4_pxja5c.png");
   }
 
   100% {
-    background-image: url("SALE1.png");
+    background-image: url("https://res.cloudinary.com/dxps8tmka/image/upload/v1692037743/SALE1_dmb7eg.png");
   }
 }
 
@@ -280,6 +280,10 @@ img {
   }
   .inputBox {
     width: 80vw;
+  }
+  .center {
+    display: flex;
+    margin-right: 20%;
   }
 }
 
